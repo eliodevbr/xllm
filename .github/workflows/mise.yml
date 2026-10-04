@@ -27,7 +27,7 @@ jobs:
       - uses: ./.github/actions/setup-rust-env
         id: rust-env
 
-      - uses: jdx/mise-action@dad1bfd3df957f44999b559dd69dc1671cb4e9ea # v4.2.1
+      - uses: jdx/mise-action@7a4e45a543138629540c9a1616d08632b893e492 # v5.0.1
         with:
           cache_key: mise-${{ steps.rust-env.outputs.cache-key }}
 
@@ -42,7 +42,7 @@ jobs:
       - uses: ./.github/actions/setup-rust-env
         id: rust-env
 
-      - uses: jdx/mise-action@dad1bfd3df957f44999b559dd69dc1671cb4e9ea # v4.2.1
+      - uses: jdx/mise-action@7a4e45a543138629540c9a1616d08632b893e492 # v5.0.1
         with:
           cache_key: mise-${{ steps.rust-env.outputs.cache-key }}
           install: false
@@ -62,7 +62,7 @@ jobs:
       - uses: ./.github/actions/setup-rust-env
         id: rust-env
 
-      - uses: jdx/mise-action@dad1bfd3df957f44999b559dd69dc1671cb4e9ea # v4.2.1
+      - uses: jdx/mise-action@7a4e45a543138629540c9a1616d08632b893e492 # v5.0.1
         with:
           cache_key: mise-${{ steps.rust-env.outputs.cache-key }}
           install: false
